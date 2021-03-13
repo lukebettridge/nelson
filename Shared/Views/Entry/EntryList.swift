@@ -9,8 +9,8 @@ import SwiftUI
 
 struct EntryList: View {
     let entries: [Entry]?
+    @Binding var selection: NSManagedObjectID?
     @Binding var isPresented: Bool
-    @State private var selection: NSManagedObjectID?
     
     var body: some View {
         if let entries = entries, isPresented {
@@ -22,8 +22,13 @@ struct EntryList: View {
                             if index != 0 {
                                 Divider()
                             }
-                            EntryRow(entry: entries[index])
-                                .tag(entries[index].objectID)
+                            EntryRow(
+                                entry: entries[index],
+                                isSelected: selection == entries[index].objectID
+                            )
+                                .onTapGesture {
+                                    selection = entries[index].objectID
+                                }
                         }
                     }
                     .padding(12.5)

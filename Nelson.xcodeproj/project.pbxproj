@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A39E045C25FCF5430004829E /* NotePrincipal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39E045B25FCF5430004829E /* NotePrincipal.swift */; };
+		A39E045D25FCF5430004829E /* NotePrincipal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A39E045B25FCF5430004829E /* NotePrincipal.swift */; };
 		B80CC9B325E7013200D7A51D /* MarkdownViewTextContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80CC9B225E7013200D7A51D /* MarkdownViewTextContainer.swift */; };
 		B80FB89925F3ACF600E5FE3D /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80FB89825F3ACF600E5FE3D /* Entry.swift */; };
 		B80FB89A25F3ACF600E5FE3D /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80FB89825F3ACF600E5FE3D /* Entry.swift */; };
@@ -93,6 +95,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A39E045B25FCF5430004829E /* NotePrincipal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotePrincipal.swift; sourceTree = "<group>"; };
 		B80CC9B225E7013200D7A51D /* MarkdownViewTextContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownViewTextContainer.swift; sourceTree = "<group>"; };
 		B80FB89825F3ACF600E5FE3D /* Entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
 		B80FB8B025F3C76D00E5FE3D /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
@@ -217,6 +220,7 @@
 				B833AC3725F38AEE0063F2A9 /* NoteEmpty.swift */,
 				B80FB8F125F4229000E5FE3D /* NoteList.swift */,
 				B80FB8EC25F4225C00E5FE3D /* NoteMenu.swift */,
+				A39E045B25FCF5430004829E /* NotePrincipal.swift */,
 				B80FB8F825F4236200E5FE3D /* NoteRow.swift */,
 				B8D899FB25DB28F4006F81E8 /* NoteView.swift */,
 			);
@@ -560,6 +564,7 @@
 				B8F6370D25EBF1F6002C4A98 /* NelsonModel.swift in Sources */,
 				B8950D2A25EAF86000835C5E /* Collection.swift in Sources */,
 				B80FB8DB25F41E7600E5FE3D /* Sidebar.swift in Sources */,
+				A39E045C25FCF5430004829E /* NotePrincipal.swift in Sources */,
 				B80FB92725F52C4100E5FE3D /* HistoryButton.swift in Sources */,
 				B8950D2F25EBCD4F00835C5E /* SidebarItem.swift in Sources */,
 				B8446B8625DB21FE00E075A5 /* Persistence.swift in Sources */,
@@ -622,6 +627,7 @@
 				B8C00EB425E04C9D00F8ECC6 /* TodayView.swift in Sources */,
 				B80FB8DC25F41E7600E5FE3D /* Sidebar.swift in Sources */,
 				B8FBE40E25E2BCEB0025B08B /* NSAttributedString.swift in Sources */,
+				A39E045D25FCF5430004829E /* NotePrincipal.swift in Sources */,
 				B8950D3025EBCD4F00835C5E /* SidebarItem.swift in Sources */,
 				B80FB8FA25F4236200E5FE3D /* NoteRow.swift in Sources */,
 				B80FB91E25F42CCF00E5FE3D /* Date.swift in Sources */,

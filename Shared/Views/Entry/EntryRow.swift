@@ -8,11 +8,34 @@
 import SwiftUI
 
 struct EntryRow: View {
+    @Environment(\.colorScheme) var colorScheme
+    
     let entry: Entry
+    let isSelected: Bool
     
     var body: some View {
-        Text(entry.text ?? "")
+        VStack {
+            Text(entry.text ?? "")
+        }
+            .foregroundColor(isSelected ? .white : nil)
+            .frame(maxHeight: .infinity)
             .frame(width: 175)
+            .padding(8)
+            .background(
+                isSelected
+                    ? Color.accentColor
+                    : colorScheme == .light
+                        ? Color.white
+                        : Color.black
+            )
+            .clipShape(RoundedRectangle(cornerRadius: 5))
+            .onHover { inside in
+                if inside {
+                    NSCursor.pointingHand.push()
+                } else {
+                    NSCursor.pop()
+                }
+            }
     }
 }
 
