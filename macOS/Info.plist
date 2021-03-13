@@ -19,8 +19,14 @@
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
 	<key>LSMinimumSystemVersion</key>
 	<string>$(MACOSX_DEPLOYMENT_TARGET)</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>NewYork.ttf</string>
+		<string>NewYorkItalic.ttf</string>
+		<string>SF-Mono-Light.otf</string>
+	</array>
 </dict>
 </plist>
